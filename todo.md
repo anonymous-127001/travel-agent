@@ -9,9 +9,10 @@ Build a **multi-channel travel-planning agent** that can search, aggregate, and 
 
 | Priority | Feature | Description | Key Tasks |
 |----------|---------|-------------|-----------|
-| 🟢 P0 | **Flight search** | Query multiple GDS/OTA APIs, return sortable result set (price, duration, stops, CO₂). | `Integrate Amadeus / Skyscanner API` → `Normalize JSON schema` → `Rank & cache results` |
-| 🟢 P0 | **Hotel search** | Fetch hotels & vacation rentals with filters (price, stars, amenities, distance). | `Integrate RapidAPI-Hotels / Booking.com` → `Geo-filter service` |
-| 🟢 P0 | **Itinerary builder** | Auto-propose day-by-day plan (flights → lodging → activities). | `Graph model for time slots` → `Optimize travel time vs. user prefs` |
+| 🟢 P0 | **Project Setup & Core Service Placeholders** | Initial directory structure, service placeholders, READMEs, and configuration notes created. | `DONE` |
+| 🟢 P0 | **Flight search** | Query multiple GDS/OTA APIs, return sortable result set (price, duration, stops, CO₂). | `[Initial structure created]` → `Develop API integration module (Amadeus / Skyscanner)` → `Implement JSON schema normalization` → `Develop ranking & caching logic` → `Define detailed API for gateway` |
+| 🟢 P0 | **Hotel search** | Fetch hotels & vacation rentals with filters (price, stars, amenities, distance). | `[Initial structure created]` → `Develop API integration module (RapidAPI-Hotels / Booking.com)` → `Implement geo-filter service` → `Define detailed API for gateway` |
+| 🟢 P0 | **Itinerary builder** | Auto-propose day-by-day plan (flights → lodging → activities). | `[Initial structure created]` → `Design and implement graph model for time slots` → `Develop optimization algorithms for travel time vs. user prefs` → `Define detailed API for gateway` |
 | 🟡 P1 | **User profile & prefs** | Store passports, loyalty numbers, seat prefs, budget, interests. | `Auth (OAuth2)` → `Encrypted vault` |
 | 🟡 P1 | **Price alerts** | Notify when fare/hotel drops below threshold. | `Background scheduler` → `Webhook/email/push` |
 | 🟡 P1 | **Real-time status** | Flight delays, gate changes, weather warnings. | `AviationStack API` → `Twilio SMS push` |
