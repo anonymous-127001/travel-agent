@@ -1,0 +1,30 @@
+{
+  "id": "fl_abc123xyz789",
+  "segments": [
+    {
+      "departureAirport": "JFK",
+      "departureTime": "2024-12-01T09:00:00Z",
+      "arrivalAirport": "ORD",
+      "arrivalTime": "2024-12-01T11:30:00Z",
+      "carrier": "AA",
+      "flightNumber": "AA123",
+      "duration": "2h 30m"
+    },
+    {
+      "departureAirport": "ORD",
+      "departureTime": "2024-12-01T13:00:00Z",
+      "arrivalAirport": "LAX",
+      "arrivalTime": "2024-12-01T15:15:00Z",
+      "carrier": "AA",
+      "flightNumber": "AA456",
+      "duration": "3h 15m"
+    }
+  ],
+  "totalDuration": "6h 15m",
+  "price": {
+    "amount": 350.75,
+    "currency": "USD"
+  },
+  "stops": 1,
+  "co2Emissions": null
+}

@@ -1,0 +1,15 @@
+{
+  "name": "flights_service",
+  "version": "1.0.0",
+  "description": "This directory will contain the Flight Search microservice.",
+  "main": "flight_search.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
