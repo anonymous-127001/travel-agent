@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.9.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules"
+    ]
   }
 }
